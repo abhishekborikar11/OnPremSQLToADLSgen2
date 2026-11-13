@@ -1,0 +1,15 @@
+{
+	"name": "adfsqlonpremtoadlsgen2",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac95e2c3-07ac-49d0-9589-d9353fd13698",
+		"tenantId": "5a3a8020-c409-4ab0-b8a5-a60b6e6557db"
+	}
+}
