@@ -59,7 +59,6 @@
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"type": "SelfHosted",
-				"description": "This is Self hosted IR",
 				"typeProperties": {}
 			},
 			"dependsOn": []
