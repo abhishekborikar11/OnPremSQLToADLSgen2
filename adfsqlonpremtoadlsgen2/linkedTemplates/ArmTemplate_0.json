@@ -17,7 +17,7 @@
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://onpremadls.dfs.core.windows.net/"
+			"defaultValue": "https://onpremtoadlsgen2.dfs.core.windows.net/"
 		},
 		"lsonpremsqlserver_properties_typeProperties_server": {
 			"type": "string",
@@ -90,7 +90,7 @@
 							"value": "@concat(dataset().Table_Name,'/',formatDateTime(utcNow(),'yyyy/MM/dd'))\n",
 							"type": "Expression"
 						},
-						"fileSystem": "salesinventory"
+						"fileSystem": "onpremtoadls"
 					},
 					"compressionCodec": "snappy"
 				},
