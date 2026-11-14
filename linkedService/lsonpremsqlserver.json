@@ -1,0 +1,22 @@
+{
+	"name": "lsonpremsqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "This is linked service to connect OnPrem SQL Server to ADF ",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost\\SQLEXPRESS",
+			"database": "SalesInventory",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "ABHISHEK_DE",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxZmM5MzQwOC1hMWJhLTQ1MDEtOTAwNC02Yjc0YjY2Y2JkZjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
