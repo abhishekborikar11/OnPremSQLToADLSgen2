@@ -1,7 +1,0 @@
-{
-	"name": "selfhostedintegrationRuntime",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "This is Self hosted IR"
-	}
-}
